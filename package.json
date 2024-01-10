@@ -1,14 +1,19 @@
 {
-  "name": "react-scroll-up-down",
-  "version": "1.0.6",
+  "name": "@ariful4593/react-scroll-up-down",
+  "version": "1.0.9",
   "type": "module",
+  "main": "build/index.js",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "webpack --mode production",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },
   "dependencies": {
+    "@ariful4593/react-scroll-up-down": "^1.0.9",
+    "@babel/core": "^7.23.7",
+    "@babel/preset-env": "^7.23.8",
+    "@babel/preset-react": "^7.23.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
@@ -20,6 +25,7 @@
     "eslint-plugin-react": "^7.33.2",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.5",
-    "vite": "^5.0.8"
+    "vite": "^5.0.8",
+    "webpack-cli": "^5.1.4"
   }
 }
