@@ -1,1 +1,10 @@
 src
+dist
+node_modules
+public
+.babelrc
+.eslintrc.cjs
+index.html
+package.json
+vite.config.js
+webpack.config.js
