@@ -44,9 +44,6 @@ function MyComponent() {
 | style             | object     | {}           | Additional styles to apply to the button.          |
 | renderIcon        | (direction: "up" \| "down") => JSX.Element | null       | Custom function to render icons.                   |
 
-## Demo
-
-See a live demo at [link to your demo]
 
 ## Contributing
 
