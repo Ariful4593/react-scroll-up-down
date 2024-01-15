@@ -1,6 +1,6 @@
 {
   "name": "react-top-bottom-scroll",
-  "version": "0.0.16",
+  "version": "0.0.18",
   "type": "module",
   "main": "dist/index.js",
   "scripts": {
@@ -10,8 +10,12 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react": "^16.0.0 || ^17.0.0 || ^18.0.0",
+    "react-dom": "^16.0.0 || ^17.0.0 || ^18.0.0"
+  },
+  "peerDependencies": {
+    "react": "^16.0.0 || ^17.0.0 || ^18.0.0",
+    "react-dom": "^16.0.0 || ^17.0.0 || ^18.0.0"
   },
   "devDependencies": {
     "@types/react": "^18.2.43",

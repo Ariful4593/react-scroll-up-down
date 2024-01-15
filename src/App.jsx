@@ -1,5 +1,6 @@
 // import "./App.css";
-import ScrollUpDown from "./components/ScrollUpDown";
+// import ScrollUpDown from "./components/ScrollUpDown";
+import ScrollUpDown from "react-top-bottom-scroll";
 function App() {
   return (
     <>
