@@ -28,5 +28,21 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Ariful4593/react-scroll-up-down.git"
-  }
+  },
+  "keywords": [
+    "react",
+    "scroll",
+    "scroll-up",
+    "scroll-down",
+    "scroll-top",
+    "scroll-bottom",
+    "scroll-to-top",
+    "scroll-to-bottom",
+    "scroll-to",
+    "scroll-to-element",
+    "react-scroll",
+    "react-custom-scroll",
+    "scroll-to-top",
+    "scroll up"
+  ]
 }
