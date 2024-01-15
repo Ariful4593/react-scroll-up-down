@@ -5,6 +5,6 @@ public
 .babelrc
 .eslintrc.cjs
 index.html
-package.json
 vite.config.js
 webpack.config.js
+dist/vite.svg

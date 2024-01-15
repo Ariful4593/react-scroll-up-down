@@ -24,7 +24,7 @@ function App() {
           color: "white",
         }}
       /> */}
-      <hr />
+      {/* <hr /> */}
       <ScrollUpDown />
     </>
   );
