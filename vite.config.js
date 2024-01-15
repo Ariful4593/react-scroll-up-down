@@ -4,11 +4,10 @@ import { libInjectCss } from "vite-plugin-lib-inject-css";
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: "/react-top-bottom-scroll/",
   build: {
     lib: {
       entry: "src/index.js",
-      name: "react-top-bottom-scroll",
+      name: "react-scroll-up-down",
       fileName: "index",
       formats: ["es"],
     },
