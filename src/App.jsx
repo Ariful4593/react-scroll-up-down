@@ -26,7 +26,18 @@ function App() {
         }}
       /> */}
       {/* <hr /> */}
-      <ScrollUpDown />
+      <ScrollUpDown
+        renderIcon={(scrollDirection) => (
+          <div>
+            {
+              {
+                down: "👇",
+                up: "👆",
+              }[scrollDirection]
+            }
+          </div>
+        )}
+      />
     </>
   );
 }

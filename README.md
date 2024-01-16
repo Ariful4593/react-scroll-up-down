@@ -1,4 +1,4 @@
- **react-top-bottom-scroll**
+ **# react-top-bottom-scroll**
 
 **Add a user-friendly scroll-to-top/bottom button to your React applications.**
 
@@ -44,6 +44,9 @@ function MyComponent() {
 | style             | object     | {}           | Additional styles to apply to the button.          |
 | renderIcon        | (direction: "up" \| "down") => JSX.Element | null       | Custom function to render icons.                   |
 
+## Warning
+
+**The default z-index is 10001. If other elements on your page have higher z-indices, the button might be hidden. If this occurs, you can set a custom z-index using the `style` prop.**
 
 ## Contributing
 
