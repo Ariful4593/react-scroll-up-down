@@ -1,6 +1,6 @@
 {
   "name": "react-top-bottom-scroll",
-  "version": "0.0.19",
+  "version": "0.0.21",
   "type": "module",
   "main": "dist/index.js",
   "scripts": {
@@ -9,15 +9,13 @@
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },
-  "dependencies": {
-    "react": "^16.0.0 || ^17.0.0 || ^18.0.0",
-    "react-dom": "^16.0.0 || ^17.0.0 || ^18.0.0"
-  },
   "peerDependencies": {
     "react": "^16.0.0 || ^17.0.0 || ^18.0.0",
     "react-dom": "^16.0.0 || ^17.0.0 || ^18.0.0"
   },
   "devDependencies": {
+    "react": "^16.0.0 || ^17.0.0 || ^18.0.0",
+    "react-dom": "^16.0.0 || ^17.0.0 || ^18.0.0",
     "@types/react": "^18.2.43",
     "@types/react-dom": "^18.2.17",
     "@vitejs/plugin-react-swc": "^3.5.0",
@@ -28,10 +26,10 @@
     "vite": "^5.0.8",
     "vite-plugin-lib-inject-css": "^1.3.0"
   },
-  "homepage": "https://github.com/Ariful4593/react-scroll-up-down",
+  "homepage": "https://github.com/Ariful4593/react-top-bottom-scroll",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Ariful4593/react-scroll-up-down.git"
+    "url": "git+https://github.com/Ariful4593/react-top-bottom-scroll.git"
   },
   "keywords": [
     "react",
