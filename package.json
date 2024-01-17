@@ -1,6 +1,6 @@
 {
   "name": "react-top-bottom-scroll",
-  "version": "0.0.19",
+  "version": "0.0.20",
   "type": "module",
   "main": "dist/index.js",
   "scripts": {
@@ -11,6 +11,7 @@
   },
   "dependencies": {
     "react": "^16.0.0 || ^17.0.0 || ^18.0.0",
+    "react-auth-system": "^0.0.1",
     "react-dom": "^16.0.0 || ^17.0.0 || ^18.0.0"
   },
   "peerDependencies": {
